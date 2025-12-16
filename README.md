@@ -1,87 +1,91 @@
-# Neural Glass Portfolio
+# Thanmay Shetty — Portfolio
 
-A high-end, interactive portfolio website with exotic clean glassmorphism design, built for Thanmay M Shetty (AIML Engineering Student).
+A personal portfolio showcasing my work in AI-driven systems, product-grade applications, and engineering-focused interfaces.
 
-## Features
+Built with a strong emphasis on clarity, performance, and thoughtful motion.
 
-- **Mouse Spotlight**: Reactive gradient that follows cursor movement
-- **Glassmorphism Design**: Clean glass surfaces with backdrop blur
-- **Text Reveal Effect**: Decryption animation for hero name
-- **Skills Marquee**: Two rows moving in opposite directions
-- **Bento Grid Projects**: Asymmetric grid layout for featured work
-- **Neural Timeline**: Scroll-triggered gradient fill on vertical timeline
-- **Floating Dock Navbar**: MacOS-style floating navigation
+---
 
-## Tech Stack
+## ✨ Overview
 
-- Next.js 14+ (App Router)
+This website is my digital workspace.
+
+It highlights:
+- Selected projects and hackathon work
+- Skills and tools I use to build real-world systems
+- Design and motion experiments focused on usability
+- A clean, minimal interface inspired by modern product design
+
+The site is continuously evolving as I learn, build, and iterate.
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend**
+- Next.js
+- React
 - TypeScript
-- Tailwind CSS (custom glassmorphism config)
-- Framer Motion
-- Lucide React Icons
+- Tailwind CSS
 
-## Design System
+**Motion & UI**
+- Motion.dev / Framer Motion
+- Custom animations
+- Glassmorphism & layered UI patterns
 
-- **Background**: Deep black (#030303)
-- **Surface**: #0A0A0A
-- **Glass**: rgba(255, 255, 255, 0.02) with backdrop-blur-xl
-- **Accent Colors**: Sky-400 (#38BDF8) and Indigo-400 (#818CF8)
-- **Noise Texture**: SVG film grain overlay
+**Backend / Systems**
+- Node.js
+- Python
+- REST APIs
 
-## Project Structure
+**Infra & Tooling**
+- Git & GitHub
+- Vercel
+- Linux
 
-```
-src/
-├── app/
-│   ├── globals.css         # CSS Variables + Noise Utility
-│   ├── layout.tsx          # Root Layout
-│   └── page.tsx            # Main Page Composition
-├── components/
-│   ├── ui/                 # Atomic Design Elements
-│   │   ├── glass-card.tsx
-│   │   ├── badge.tsx
-│   │   ├── button.tsx
-│   │   └── text-reveal.tsx
-│   ├── layout/
-│   │   ├── navbar.tsx      # Floating dock
-│   │   ├── footer.tsx
-│   │   └── container.tsx
-│   └── sections/
-│       ├── hero.tsx
-│       ├── skills-marquee.tsx
-│       ├── projects-bento.tsx
-│       ├── timeline.tsx
-│       └── notes.tsx
-├── lib/
-│   ├── utils.ts
-│   └── data.ts             # Structured content
-└── hooks/
-    └── use-mouse-position.ts
-```
+---
 
-## Getting Started
+## 🎯 Key Sections
 
-1. Install dependencies:
-```bash
-npm install
-```
+- **Hero** — A short, focused introduction
+- **Work** — Selected projects with real context
+- **Secret Sauce** — Tools, frameworks, and systems I work with
+- **Experience** — Hackathons, leadership, and applied learning
+- **Contact** — Easy ways to connect
 
-2. Run the development server:
-```bash
-npm run dev
-```
+---
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+## 🚀 Development
 
-## Build
+🌍 Deployment
 
-```bash
-npm run build
-npm start
-```
+The site is deployed using Vercel with automatic deployments from GitHub.
 
-## License
+Every push to main triggers a fresh deployment to the live domain.
 
-MIT
+📄 Resume
 
+My resume is available directly from the site via the navigation menu.
+
+📬 Contact
+
+If you’d like to collaborate, discuss ideas, or just say hi:
+
+Email: thanmay1100@gmail.com
+
+Website: https://thanmayshetty.co.in
+
+🧠 Notes
+
+This portfolio is intentionally minimal.
+
+The focus is on:
+
+Strong fundamentals
+
+Clean systems
+
+Thoughtful user experience
+
+More experiments and projects will be added over time.
 
