@@ -8,7 +8,7 @@ export default function Hero() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("hello@thanmayshetty.co.in");
+    navigator.clipboard.writeText("thanmay1100@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -69,7 +69,7 @@ export default function Hero() {
             onClick={handleCopy}
             className="flex items-center gap-2 px-4 py-3 text-white/70 hover:text-white transition-colors"
           >
-            hello@thanmayshetty.co.in
+            thanmay1100@gmail.com
             {copied ? (
               <Check className="w-4 h-4 text-green-400" />
             ) : (

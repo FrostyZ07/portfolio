@@ -77,7 +77,7 @@ export default function Connect() {
               </div>
               <div className="flex items-center gap-3 text-white/70">
                 <Mail className="w-5 h-5" />
-                <span>hello@thanmay.dev</span>
+                <span>thanmay1100@gmail.com</span>
               </div>
             </div>
 
@@ -135,7 +135,7 @@ export default function Connect() {
                     </div>
                     <div className="flex-1">
                       <h3 className="font-semibold text-white mb-1">GitHub</h3>
-                      <p className="text-sm text-white/50">@thanmaydev</p>
+                      <p className="text-sm text-white/50">@FrostyZ07</p>
                     </div>
                   </motion.a>
                 </div>
@@ -148,10 +148,10 @@ export default function Connect() {
                 <p className="text-xs uppercase tracking-wider text-white/50 mb-4">CONNECT</p>
                 <div className="grid grid-cols-2 gap-4">
                   {[
-                    { icon: Linkedin, title: "LinkedIn", handle: "in/thanmay", href: "https://linkedin.com" },
-                    { icon: Twitter, title: "Twitter / X", handle: "@thanmaydev", href: "https://twitter.com" },
+                    { icon: Linkedin, title: "LinkedIn", handle: "in/thanmay-m-shetty-244997281", href: "https://linkedin.com" },
+                    { icon: Twitter, title: "Twitter / X", handle: "@thanmay1100", href: "https://twitter.com" },
                     { icon: Send, title: "Telegram", handle: "@thanmaydev", href: "https://telegram.org" },
-                    { icon: Mail, title: "Email", handle: "hello@thanmay.dev", href: "mailto:hello@thanmay.dev" },
+                    { icon: Mail, title: "Email", handle: "thanmay1100@gmail.com", href: "mailto:thanmay1100@gmail.com" },
                   ].map((link, index) => {
                     const Icon = link.icon;
                     return (
